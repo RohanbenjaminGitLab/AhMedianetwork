@@ -9,12 +9,12 @@ function App() {
       {/* Glass Container */}
       <div className="w-full max-w-2xl bg-white/10 backdrop-blur-lg rounded-3xl p-6 sm:p-8 text-white flex flex-col items-center">
 
-        {/* Logo Section */}
-       <div className="flex justify-center mt-4 sm:mt-6 lg:mt-8">
+{/* Logo Section */}
+<div className="flex justify-center mt-4 sm:mt-6 lg:mt-8">
   <img
     src="/AllLogo.png"
     alt="AH Logo"
-    className="w-36 sm:w-48 md:w-56 lg:w-64 max-w-full object-contain transition-transform duration-300 hover:scale-105"
+    className="w-48 sm:w-56 md:w-64 lg:w-72 max-w-full object-contain transition-transform duration-300 hover:scale-105"
   />
 </div>
 
