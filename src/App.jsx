@@ -14,7 +14,7 @@ function App() {
   <img
     src="/AllLogo.png"
     alt="AH Logo"
-    className="w-48 sm:w-56 md:w-64 lg:w-72 max-w-full object-contain transition-transform duration-300 hover:scale-105"
+    className="w-64 sm:w-72 md:w-80 lg:w-96 max-w-full object-contain transition-transform duration-300 hover:scale-105"
   />
 </div>
 
