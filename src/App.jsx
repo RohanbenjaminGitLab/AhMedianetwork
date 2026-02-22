@@ -12,14 +12,9 @@ function App() {
         {/* Logo Section */}
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <img
-            src="/AHMedia.png"
+            src="/AllLogo.png"
             alt="AH Logo"
             className="w-24 sm:w-36 md:w-40 max-w-full rounded-xl shadow-lg hover:scale-105 transition duration-300"
-          />
-          <img
-            src="/AHSports.png"
-            alt="AH Sports"
-            className="w-24 sm:w-36 md:w-40 max-w-full rounded-xl shadow-lg bg-white hover:scale-105 transition duration-300"
           />
         </div>
 
