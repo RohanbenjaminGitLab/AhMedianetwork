@@ -39,42 +39,36 @@ function App() {
         {/* Social Buttons */}
         <div className="flex flex-col gap-3 sm:gap-4 mt-4 sm:mt-6 w-full items-center">
 
-          {/* Facebook Sports */}
           <SocialButton
             icon={<FaFacebookF />}
             text="FACEBOOK | AH SPORTS"
-            link="fb://facewebmodal/f?href=https://www.facebook.com/actionhivestreamz"
+            link="https://www.facebook.com/actionhivestreamz"
           />
 
-          {/* Facebook Media */}
           <SocialButton
             icon={<FaFacebookF />}
             text="FACEBOOK | AH MEDIA NETWORK"
-            link="fb://facewebmodal/f?href=https://www.facebook.com/ah.media.network/"
+            link="https://www.facebook.com/ah.media.network"
           />
 
-          {/* YouTube */}
           <SocialButton
             icon={<FaYoutube />}
             text="YOUTUBE | AH MEDIA NETWORK"
-            link="vnd.youtube://https://youtube.com/@ah_media_network"
+            link="https://www.youtube.com/@ah_media_network"
           />
 
-          {/* TikTok */}
           <SocialButton
             icon={<FaTiktok />}
             text="TIKTOK | AH MEDIA NETWORK"
-            link="snssdk1128://user/profile/AHMediaNetwork"
+            link="https://www.tiktok.com/@AHMediaNetwork"
           />
 
-          {/* Instagram */}
           <SocialButton
             icon={<FaInstagram />}
             text="INSTAGRAM | AH MEDIA NETWORK"
-            link="instagram://user?username=AHMediaNetwork"
+            link="https://www.instagram.com/AHMediaNetwork"
           />
 
-          {/* WhatsApp Group */}
           <SocialButton
             icon={<FaWhatsapp />}
             text="WHATSAPP | AH MEDIA NETWORK"
@@ -86,7 +80,6 @@ function App() {
         {/* Developer Credit */}
         <p className="mt-8 text-xs sm:text-sm text-center opacity-70">
           Developed by <span className="font-semibold"> -Rohanbenjamin</span><br />
-
           Contact Number{" "}
           <a
             href="https://wa.me/94755391504"
